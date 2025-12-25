@@ -37,8 +37,8 @@ const Dashboard: React.FC<DashboardProps> = ({ state }) => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         {[
           { label: 'Monthly Revenue', value: `RM${totalRevenue.toLocaleString()}`, icon: 'fa-sack-dollar', color: 'text-[#a67c52]', bg: 'bg-[#fcfaf7]' },
-          { label: 'Pending Weddings', value: pendingWeddings, icon: 'fa-ring', color: 'text-[#3d2b1f]', bg: 'bg-[#fcfaf7]' },
-          { label: 'Viewing Requests', value: pendingViewings, icon: 'fa-eye', color: 'text-[#a67c52]', bg: 'bg-[#fcfaf7]' },
+          { label: 'Pending Events', value: pendingWeddings, icon: 'fa-ring', color: 'text-[#3d2b1f]', bg: 'bg-[#fcfaf7]' },
+          { label: 'Appointment Requests', value: pendingViewings, icon: 'fa-eye', color: 'text-[#a67c52]', bg: 'bg-[#fcfaf7]' },
           { label: 'Active Stall Items', value: state.stallItems.length, icon: 'fa-store', color: 'text-[#3d2b1f]', bg: 'bg-[#fcfaf7]' },
         ].map((stat, i) => (
           <div key={i} className="bg-white p-8 rounded-2xl shadow-sm border border-stone-200 hover:shadow-md transition-shadow group">

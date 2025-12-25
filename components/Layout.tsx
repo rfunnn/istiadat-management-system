@@ -10,8 +10,8 @@ interface LayoutProps {
 const Layout: React.FC<LayoutProps> = ({ children, activeTab, setActiveTab }) => {
   const navItems = [
     { id: 'dashboard', label: 'Dashboard', icon: 'fa-chart-line' },
-    { id: 'bookings', label: 'Weddings', icon: 'fa-ring' },
-    { id: 'viewings', label: 'Viewings', icon: 'fa-calendar-check' },
+    { id: 'bookings', label: 'Events', icon: 'fa-ring' },
+    { id: 'viewings', label: 'Appointments', icon: 'fa-calendar-check' },
     { id: 'availability', label: 'Availability', icon: 'fa-calendar-alt' },
     { id: 'menus', label: 'Package Mngmt', icon: 'fa-utensils' },
   ];

@@ -188,7 +188,7 @@ const BookingsTable: React.FC<BookingsTableProps> = ({ bookings, menus, isCateri
             className="px-6 py-2.5 bg-[#3d2b1f] text-white text-xs font-bold uppercase tracking-widest rounded-xl hover:bg-[#a67c52] transition-all flex items-center gap-2 shadow-lg shadow-stone-200 active:scale-95"
           >
             <i className="fas fa-plus"></i>
-            Register New Wedding
+            Register New Event
           </button>
         </div>
       </div>

@@ -21,7 +21,7 @@ const ViewingsTable: React.FC<ViewingsTableProps> = ({ viewings, onUpdateStatus 
     <div className="bg-white rounded-2xl shadow-sm border border-stone-200 overflow-hidden">
       <div className="p-8 border-b border-stone-100 flex items-center justify-between">
         <div>
-          <h3 className="text-xl font-serif font-bold text-[#3d2b1f]">Viewing Appointments</h3>
+          <h3 className="text-xl font-serif font-bold text-[#3d2b1f]">Scheduled Appointments</h3>
           <p className="text-sm text-stone-400 mt-1">Manage scheduled site tours for potential clients.</p>
         </div>
         <div className="flex gap-3">
@@ -43,7 +43,7 @@ const ViewingsTable: React.FC<ViewingsTableProps> = ({ viewings, onUpdateStatus 
           <tbody className="divide-y divide-stone-50">
             {viewings.length === 0 ? (
               <tr>
-                <td colSpan={4} className="px-8 py-16 text-center text-stone-400 font-medium italic">No pending viewing appointments.</td>
+                <td colSpan={4} className="px-8 py-16 text-center text-stone-400 font-medium italic">No pending appointment requests.</td>
               </tr>
             ) : (
               viewings.map((viewing) => (
