@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Istiadat Booking Management System (UI only)",
+  "description": "A premium management suite for Istiadat Wedding Company & Events to oversee venue bookings, catering, and site viewings.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
